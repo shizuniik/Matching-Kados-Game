@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2016479328010508013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016479328010507987}
+  - component: {fileID: 2016479328010508012}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016479328010507987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479328010508013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.262634, y: 135.35406, z: -116.57578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016479328010508012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016479328010508013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f445613d5267bbe4b99973012ad2a44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: click_card
+    clip: {fileID: 8300000, guid: fae7c71135820084db39949ad96fa7b2, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    pitch: 1
+  - name: pair_match
+    clip: {fileID: 8300000, guid: cde74e7d5a7d2ef4e865dadd6700b043, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    pitch: 1
+  - name: win_game
+    clip: {fileID: 8300000, guid: f1526776395c3d04d80868d0736e1b4e, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    pitch: 1
+  - name: blip
+    clip: {fileID: 8300000, guid: acab40dd4ae42ec42a92758ff7c75c88, type: 3}
+    source: {fileID: 0}
+    volume: 0.3
+    loop: 0
+    pitch: 1
+  - name: button_click
+    clip: {fileID: 8300000, guid: f23eaaaafbda53746b99343bbc161514, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    pitch: 1
+  - name: game_over
+    clip: {fileID: 8300000, guid: acab40dd4ae42ec42a92758ff7c75c88, type: 3}
+    source: {fileID: 0}
+    volume: 0.35
+    loop: 0
+    pitch: 0.1
